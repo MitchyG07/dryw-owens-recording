@@ -1,9 +1,17 @@
 import Link from "next/link";
 import { Navbar, Nav } from "react-bootstrap";
+import React from "react";
 
 const Navi = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
+    <Navbar
+      collapseOnSelect
+      scrolling
+      dark
+      expand="lg"
+      bg="transparent"
+      variant="dark"
+    >
       <Navbar.Brand href="#home">
         <img
           src="https://toppng.com/uploads/preview/mustache-11563112496btuk1vqglh.png"

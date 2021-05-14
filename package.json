@@ -12,7 +12,6 @@
     "@zeit/next-css": "^1.0.1",
     "babel-preset-next": "^1.4.0",
     "bootstrap": "^5.0.0-beta3",
-    "file-loader": "^6.2.0",
     "framer-motion": "^4.1.16",
     "next": "10.2.0",
     "next-seo": "^4.24.0",
@@ -22,6 +21,12 @@
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.13.13"
+    "@babel/preset-react": "^7.13.13",
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "file-loader": "^6.2.0"
   }
 }
