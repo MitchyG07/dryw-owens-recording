@@ -1,7 +1,7 @@
-import { Card } from "react-bootstrap";
-import styles from "../styles/Box.module.css";
-import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { Card } from "react-bootstrap"
+import styles from "../styles/Box.module.css"
+import React, { useState } from "react"
+import { motion } from "framer-motion"
 
 const CreditItem = ({ credit, index }) => {
   return (
@@ -15,7 +15,7 @@ const CreditItem = ({ credit, index }) => {
         </div>
       </Card>
     </div>
-  );
-};
+  )
+}
 
-export default CreditItem;
+export default CreditItem

@@ -1,6 +1,7 @@
-import Link from "next/link";
-import { Navbar, Nav } from "react-bootstrap";
-import React from "react";
+import Link from "next/link"
+import { Navbar, Nav } from "react-bootstrap"
+import React from "react"
+import styles from "../styles/Nav.module.css"
 
 const Navi = () => {
   return (
@@ -12,7 +13,7 @@ const Navi = () => {
       bg="transparent"
       variant="dark"
     >
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
         <img
           src="https://toppng.com/uploads/preview/mustache-11563112496btuk1vqglh.png"
           width="50"
@@ -34,7 +35,7 @@ const Navi = () => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-  );
-};
+  )
+}
 
-export default Navi;
+export default Navi

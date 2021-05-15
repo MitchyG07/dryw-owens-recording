@@ -1,16 +1,12 @@
-import Head from "next/head";
-import React from "react";
-import Image from "next/image";
-import { Container, Row, Col, Card } from "react-bootstrap";
-import styles from "../styles/About.module.css";
+import Head from "next/head"
+import React from "react"
+import Image from "next/image"
+import { Container, Row, Col, Card } from "react-bootstrap"
+import styles from "../styles/About.module.css"
 
 const about = () => {
   return (
     <div>
-      <Head>
-        <title>About</title>
-      </Head>
-
       <div>
         <Container
           fluid="md"
@@ -21,8 +17,8 @@ const about = () => {
               <Image
                 src="/../public/dryw.jpeg"
                 alt="Picture of Dryw Owens inside his music studio"
-                width={400}
-                height={400}
+                width={450}
+                height={450}
                 className={styles.drywPhoto}
               />
             </Col>
@@ -49,14 +45,25 @@ const about = () => {
           </Row>
         </Container>
       </div>
-      <div className="d-flex align-items-center justify-content-center">
-        <i className="fab fa-facebook fa-2x"></i>
-        <i className="fab fa-twitter fa-2x"></i>
-        <i className="fab fa-instagram fa-2x"></i>
-        <i className="fab fa-linkedin fa-2x"></i>
+      <div className="d-flex align-items-center justify-content-center mt-5">
+        <a href="https://www.facebook.com/drywowens" target="_blank">
+          <i className="fab fa-facebook fa-3x px-1"></i>
+        </a>
+        <a href="https://twitter.com/drywowens?lang=en" target="_blank">
+          <i className="fab fa-twitter fa-3x px-1"></i>
+        </a>
+        <a href="https://www.instagram.com/drywowens/?hl=en" target="_blank">
+          <i className="fab fa-instagram fa-3x px-1"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/dryw-owens-80166639/"
+          target="_blank"
+        >
+          <i className="fab fa-linkedin fa-3x px-1"></i>
+        </a>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default about;
+export default about
