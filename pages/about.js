@@ -28,17 +28,18 @@ const about = () => {
                   <h5>About Dryw</h5>
                 </Card.Header>
                 <Card.Body>
-                  Dryw Owens is an Audio Engineer and Music Producer based in
-                  Sacramento, California. From his early days recording with his
-                  band, Consider the Thief, Dryw has worked to tirelessly to
-                  perfect his craft since learning to record, mix, and master in
-                  2007. In 2009, Dryw decided it was time to build his own
-                  studio, colloquially known as Little Russia. Eventually,
-                  Little Russia moved away from its original warehouse and Dryw
-                  Owens Recording was born; located conveniently behind Dryw's
-                  home. Dryw has worked with many notable artists including:
-                  Dance Gavin Dance, Sianvar, Hail the Sun, Eidola, A Lot Like
-                  Birds, Mirours, Amber de La Rosa, and Stablemate.{" "}
+                  Dryw <em>(prounced dru)</em> Owens is an Audio Engineer and
+                  Music Producer based in Sacramento, California. From his early
+                  days recording with his band, Consider the Thief, Dryw has
+                  worked to tirelessly to perfect his craft since learning to
+                  record, mix, and master in 2007. In 2009, Dryw decided it was
+                  time to build his own studio, colloquially known as Little
+                  Russia. Eventually, Little Russia moved away from its original
+                  warehouse and Dryw Owens Recording was born; located
+                  conveniently behind Dryw's home. Dryw has worked with many
+                  notable artists including: Dance Gavin Dance, Sianvar, Hail
+                  the Sun, Eidola, A Lot Like Birds, Mirours, Amber de La Rosa,
+                  and Stablemate.{" "}
                 </Card.Body>
               </Card>
             </Col>
