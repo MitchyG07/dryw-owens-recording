@@ -23,6 +23,14 @@ const studio = () => {
               height={400}
             />
           </Carousel.Item>
+          <Carousel.Item>
+            <Image
+              src="/../public/DrywStudio.jpg"
+              alt="Picture of Dryw in his Studio"
+              width={500}
+              height={500}
+            />
+          </Carousel.Item>
         </Carousel>
       </Container>
     </>
