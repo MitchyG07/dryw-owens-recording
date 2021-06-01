@@ -1,18 +1,43 @@
 import { Form, Button } from "react-bootstrap"
 import FooterComp from "../components/FooterComp"
+import emailjs from "emailjs-com"
 
 const booking = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm("gmail", "booking", e.target, "user_yNizOFYgUpBQLTz0dKs06")
+      .then(
+        (result) => {
+          console.log(result.text)
+        },
+        (error) => {
+          console.log(error.text)
+        }
+      )
+    e.target.reset()
+  }
+
   return (
     <div class="container">
-      <Form>
+      <Form onSubmit={handleSubmit}>
         <Form.Group>
           <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="Enter your email address" />
+          <Form.Control
+            type="email"
+            placeholder="Enter your email address"
+            name="email"
+          />
         </Form.Group>
         <br />
         <Form.Group>
           <Form.Label>Artist Name</Form.Label>
-          <Form.Control type="text" placeholder="Enter your artist name" />
+          <Form.Control
+            type="text"
+            placeholder="Enter your artist name"
+            name="name"
+          />
         </Form.Group>
         <br />
         <Form.Group>
@@ -20,6 +45,7 @@ const booking = () => {
           <Form.Control
             type="text"
             placeholder="What genre best describes your group?"
+            name="genre"
           />
         </Form.Group>
         <br />
@@ -29,6 +55,7 @@ const booking = () => {
             as="textarea"
             rows={3}
             placeholder="Tell me about your music! Link any media or music you would like me to check out! "
+            name="description"
           />
         </Form.Group>
         <br />
@@ -38,6 +65,7 @@ const booking = () => {
             as="textarea"
             rows={3}
             placeholder="What instruments will you be using on your record? How much experience do you or your group member have playing each instument?"
+            name="instruments"
           />
         </Form.Group>
         <br />
