@@ -99,6 +99,7 @@ const booking = () => {
           Submit
         </Button>
       </Form>
+      <FooterComp />
     </div>
   )
 }

@@ -10,8 +10,8 @@ const Navi = () => {
       scrolling
       dark
       expand="lg"
-      bg="transparent"
-      variant="light"
+      bg="dark"
+      variant="dark"
     >
       <Navbar.Brand href="/">
         <img

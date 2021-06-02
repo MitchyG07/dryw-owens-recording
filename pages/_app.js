@@ -7,7 +7,6 @@ import "@fortawesome/fontawesome-free/js/solid"
 import "@fortawesome/fontawesome-free/js/regular"
 import "@fortawesome/fontawesome-free/js/brands"
 import { NextSeo } from "next-seo"
-import Background from "../public/drywStudio.MP4"
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -31,7 +30,7 @@ function MyApp({ Component, pageProps }) {
           zIndex: "-1",
         }}
       >
-        <source src={Background} type="video/mp4" />
+        <source src="/videos/drywStudio.mp4" type="video/mp4" />
       </video>
       <Navi />
       <Component {...pageProps} />
