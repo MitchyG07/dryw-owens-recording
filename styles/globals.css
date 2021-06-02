@@ -6,8 +6,12 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background: fixed;
 
-  background-color: #e84393;
-  background-image: linear-gradient(315deg, #e84393 0%, #121212 60%);
+  background-color: #ffe687;
+  background-image: linear-gradient(
+    68.2deg,
+    rgba(255, 202, 88, 1) 0%,
+    rgba(139, 73, 255, 1) 100.2%
+  );
 }
 
 a {
@@ -17,5 +21,5 @@ a {
 
 * {
   box-sizing: border-box;
-  color: #fff;
+  color: #121212;
 }

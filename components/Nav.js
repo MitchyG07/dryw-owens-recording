@@ -11,7 +11,7 @@ const Navi = () => {
       dark
       expand="lg"
       bg="transparent"
-      variant="dark"
+      variant="light"
     >
       <Navbar.Brand href="/">
         <img

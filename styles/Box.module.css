@@ -27,7 +27,7 @@
   height: 220%;
   top: -50%;
   left: -100%;
-  background: rgba(235, 53, 131, 0.75);
+  background: rgba(135, 255, 230, 0.75);
   transform: rotate(25deg);
   transform-origin: center top 0;
   transition: 0.5s;
@@ -47,7 +47,7 @@
   padding: 0 20px;
   position: absolute;
   top: -100%;
-  color: #fff;
+  color: #121212;
   left: 0;
   z-index: 2;
   transition: 1.1s;
