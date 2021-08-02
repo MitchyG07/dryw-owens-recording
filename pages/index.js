@@ -5,10 +5,10 @@ import FooterComp from "../components/FooterComp"
 
 export default function Home({ credits }) {
   return (
-    <div>
+    <>
       <CreditList credits={credits} />
       <FooterComp />
-    </div>
+    </>
   )
 }
 
